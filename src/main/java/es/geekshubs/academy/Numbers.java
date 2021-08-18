@@ -1,19 +1,29 @@
 package es.geekshubs.academy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+public class FizzBuzz {
 
-public class Numbers {
-
-  /**
-   * Apply Method
-   * @param input
-   * @return
-   */
-  public List<String> apply(final List<Integer> input) {
-    return null;
-  }
-
-}
+	/*
+	   * Apply Method
+	   * @param count
+	   * @return
+	   */
+	
+  public String apply(final int count) {
+	  
+	  for (int i = 1; i < count; i++) {
+		  if(i%3==0) {// si el multiplo de 3
+			  System.out.println("GREEKS"); 
+		  }
+		  else if(i%5==0) {// si el multiplo de 3
+			  System.out.println("HUBS");
+		  }
+		  else { // si no lo es de ninguno de los dos
+			  System.out.println(i);
+		  }
+		  
+		
+	  }// fin for
+   return null;
+  }// fin apply
+  
+}// fin class
